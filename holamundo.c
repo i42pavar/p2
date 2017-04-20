@@ -1,7 +1,8 @@
 #include "./includes/miinclude.h"
 
 int main(){
- printf("Hola mundo \n");
+ char c[100] = "Hola mundo";
+ printf("%s\n", strcat(c,", soy i42pavar"));
  return 0;
 }
 
